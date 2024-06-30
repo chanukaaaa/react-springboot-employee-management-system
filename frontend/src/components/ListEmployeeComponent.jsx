@@ -41,4 +41,4 @@ const ListEmployeeComponent = () => {
   )
 }
 
-export default ListEmployeeComponent
+export default ListEmployeeComponent;
