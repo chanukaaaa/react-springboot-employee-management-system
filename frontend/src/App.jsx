@@ -1,15 +1,23 @@
 import './App.css'
 import HeaderComponent from './components/HeaderComponent'
-import ListEmployeeComponent from './components/ListEmployeeComponent'
 import FooterComponent from './components/FooterComponent'
+import ListEmployeeComponent from "./components/ListEmployeeComponent1"
+import EmployeeComponent from "./components/EmployeeComponent"
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-    <HeaderComponent />
-    <ListEmployeeComponent />
-    <FooterComponent />
+    <BrowserRouter>
+      <HeaderComponent />
+      <Routes>
+        <Route path="/" element={<ListEmployeeComponent />} />
+        <Route path="/employees" element={<ListEmployeeComponent />} />
+        <Route path="/add-employee" element={<EmployeeComponent />} />
+      </Routes>
+      <FooterComponent />
+    </BrowserRouter>
     </>
   )
 }
