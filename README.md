@@ -20,6 +20,10 @@ This project is a simple Employee Management System (EMS) built with modern web 
 - **GitHub**: Source code is hosted and managed on GitHub.
 - **Vercel**: Deployed and hosted on Vercel for seamless and efficient access.
 
+- ## Live Demo
+You can view a live demo of the application here: [Employee Management System](https://employee-management-system-amber.vercel.app/)
+
+
 ## Getting Started
 
 ### Prerequisites
